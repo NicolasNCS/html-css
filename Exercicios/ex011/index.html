@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir em outros dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto flexível">
+    </picture>
+    <h1>Músicas em HTML5</h1>
+    <audio src="midia/sweet-child-o-mine.mp3" controls></audio>
+    <a href="midia/sweet-child-o-mine.mp3" download="sweet-child-o-mine.mp3" type="application/mpeg">
+        <p>Baixe aqui</p>
+    </a>
+</html>
