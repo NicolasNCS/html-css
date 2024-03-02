@@ -5,33 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina</title>
     <style>
-        section#container {
-            position: relative;
-            background-color: aqua;
-            filter: blur(10px);
-            height: 800px;
-        }
-
-        article#conteudo {
-            position: absolute;
+        div#externo {
             background-color: black;
-            color: white;
-            height: 400px;
-            width: 400px;
-            filter: none;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+            height: 600px;
+            position: relative;
         }
 
+        div#interno {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            right: 50%;
+            bottom: 50%;
+            transform: translate(50px, 50px);
+        }
 
+        div#interno > p {
+            text-align: center;
+            text-decoration: underline;
+            font-weight: bold;
+            position: absolute;
+            bottom: 20%;
+        }
     </style>
 </head>
 <body>
-    <section id="container">
-        <article id="conteudo">
-            fodaaa
-        </article>
-    </section>
+    <div id="externo">
+        <div id="interno">
+            <p>Eu gosto de sexo</p>
+        </div>
+    </div>
 </body>
 </html>
