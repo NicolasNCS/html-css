@@ -14,10 +14,33 @@ body > header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body > article {
+    background-color: bisque;
+    max-width: 850px;
+    margin: auto;
+    padding-top: 70px;
+}
+
 section > h1 {
 
 }
 
-body > p {
-    font-size: 1.2em;
+.post-author {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.share-post {
+    text-transform: uppercase;
+    size: 12px;
+    line-height: 22px;
+}
+
+section > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 58px;
+    margin: 0px;
 }
