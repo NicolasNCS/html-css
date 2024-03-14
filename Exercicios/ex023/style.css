@@ -15,14 +15,9 @@ body > header {
 }
 
 body > article {
-    background-color: bisque;
     max-width: 850px;
     margin: auto;
     padding-top: 70px;
-}
-
-section > h1 {
-
 }
 
 .post-author {
@@ -32,9 +27,16 @@ section > h1 {
 }
 
 .share-post {
-    text-transform: uppercase;
     size: 12px;
     line-height: 22px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#title-section {
+    margin-bottom: 50px;
 }
 
 section > h1 {
@@ -43,4 +45,21 @@ section > h1 {
     font-size: 52px;
     line-height: 58px;
     margin: 0px;
+}
+
+.hero-image {
+    margin: 50px 0px;
+}
+
+.hero-image > img {
+    max-width: 100%;
+}
+
+.content-section {
+    max-width: 680px;
+    margin: auto;
+}
+
+iframe {
+    margin: 50px 0px;
 }
