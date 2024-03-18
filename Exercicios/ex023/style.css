@@ -2,6 +2,7 @@
 
 body {
     margin: 0px;
+    font-family: Nunito, sans-serif;
 }
 
 body > header {
@@ -18,6 +19,7 @@ body > article {
     max-width: 850px;
     margin: auto;
     padding-top: 70px;
+    padding: 8px;
 }
 
 .post-author {
@@ -32,8 +34,16 @@ links-title {
     line-height: 22px;
 }
 
-.linkk-title {
+.links-title {
     margin-bottom: 12px;
+}
+
+.share-post span {
+    margin-right: 4px;
+}
+
+.share-post > img {
+    vertical-align: middle;
 }
 
 .uppercase {
@@ -50,6 +60,7 @@ section > h1 {
     font-size: 52px;
     line-height: 58px;
     margin: 0px;
+    margin-bottom: 10px;
 }
 
 .hero-image {
@@ -65,8 +76,14 @@ section > h1 {
     margin: auto;
 }
 
+article > p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
 iframe {
     margin: 50px 0px;
+    max-width: 100%;
 }
 
 footer > ul {
@@ -83,8 +100,10 @@ footer {
     max-width: 680px;
     background-color: #F1F1F1;
     padding: 20px 15px;
+    margin: auto;
 }
 
 footer  ul  li:last-of-type {
     margin-bottom: 0px;
+    margin-bottom: 70px;
 }
