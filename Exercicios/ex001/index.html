@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtoba</title>
+    <title>Pedido de Namoro</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>You toba 2 </h1>
-    <hr>
-    <p>Enaldinho de calcinha de chocolate! olha no que deu!!</p>
+    <div class="container">
+        <h1>Pedido de Namoro</h1>
+        <form action="#">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </div>
 </body>
 </html>
